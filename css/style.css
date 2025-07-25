@@ -4,7 +4,7 @@ a {
 }
 
 :root {
-  --icon-color: #f4f4fd;
+  --icon-fill-color: #f4f4fd;
 }
 
 h1,
@@ -838,17 +838,14 @@ input[type="radio"] {
 }
 
 .checkbox__icon {
-  stroke-width: 1px;
-  stroke: rgba(46, 47, 66, 0.4);
+  fill: #2e2f42;
+  transition: fill 250ms ease;
 }
 
 input[type="checkbox"]:checked + .checkbox__label .checkbox__part {
   background-color: #404bbf;
   border: none;
-}
-
-input[type="checkbox"]:checked + .checkbox__label .checkbox__icon {
-  fill: var(--icon-color);
+  fill: var(--icon-fill-color);
 }
 
 .privacy__policy-link {

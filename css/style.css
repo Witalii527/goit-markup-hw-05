@@ -4,7 +4,7 @@ a {
 }
 
 :root {
-  --icon-fill-color: #f4f4fd;
+  --icon-color: #f4f4fd;
 }
 
 h1,
@@ -848,7 +848,7 @@ input[type="checkbox"]:checked + .checkbox__label .checkbox__part {
 }
 
 input[type="checkbox"]:checked + label .checkbox__icon {
-  fill: var(--icon-fill-color);
+  fill: var(--icon-color);
 }
 
 .privacy__policy-link {

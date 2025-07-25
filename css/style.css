@@ -838,7 +838,8 @@ input[type="radio"] {
 }
 
 .checkbox__icon {
-  stroke: #2e2f42;
+  stroke-width: 1px;
+  stroke: rgba(46, 47, 66, 0.4);
 }
 
 input[type="checkbox"]:checked + .checkbox__label .checkbox__part {

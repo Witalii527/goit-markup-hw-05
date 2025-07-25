@@ -833,9 +833,12 @@ input[type="radio"] {
   fill: transparent;
 }
 
-input[type="checkbox"]:checked + .checkbox__part {
+input[type="checkbox"]:checked ~ .checkbox__label .checkbox__part {
   background-color: #404bbf;
   border: none;
+}
+
+input[type="checkbox"]:checked ~ .checkbox__label .checkbox__icon {
   fill: #f4f4fd;
 }
 

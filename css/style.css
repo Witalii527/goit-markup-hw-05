@@ -837,6 +837,11 @@ input[type="radio"] {
   fill: transparent;
 }
 
+.checkbox__icon {
+  fill: #2e2f42;
+  transition: fill 250ms ease;
+}
+
 input[type="checkbox"]:checked ~ .checkbox__label .checkbox__part {
   background-color: #404bbf;
   border: none;

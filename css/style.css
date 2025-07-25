@@ -842,7 +842,7 @@ input[type="checkbox"]:checked ~ .checkbox__label .checkbox__part {
   border: none;
 }
 
-input[type="checkbox"]:checked ~ .checkbox__label .checkbox__icon {
+input[type="checkbox"]:checked + label .checkbox__icon {
   fill: var(--icon-fill-color);
 }
 

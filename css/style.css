@@ -839,7 +839,6 @@ input[type="radio"] {
 
 .checkbox__icon {
   stroke: #2e2f42;
-  transition: fill 250ms ease;
 }
 
 input[type="checkbox"]:checked + .checkbox__label .checkbox__part {
@@ -847,7 +846,7 @@ input[type="checkbox"]:checked + .checkbox__label .checkbox__part {
   border: none;
 }
 
-input[type="checkbox"]:checked + label .checkbox__icon {
+input[type="checkbox"]:checked + .checkbox__label .checkbox__icon {
   fill: var(--icon-color);
 }
 

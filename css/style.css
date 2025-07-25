@@ -838,7 +838,7 @@ input[type="radio"] {
 }
 
 .checkbox__icon {
-  fill: #2e2f42;
+  stroke: #2e2f42;
   transition: fill 250ms ease;
 }
 

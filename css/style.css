@@ -833,13 +833,7 @@ input[type="radio"] {
   fill: transparent;
 }
 
-.checkbox__input {
-  fill: #f4f4fd;
-  background-color: #404bbf;
-  border: none;
-}
-
-input[type="checkbox"]:checked ~ .checkbox__label .checkbox__part {
+.checkbox__label input:checked + .checkbox__part {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;

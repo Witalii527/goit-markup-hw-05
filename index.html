@@ -543,25 +543,21 @@
             >
             </textarea>
           </div>
-          <div class="checkbox">
+          <label class="checkbox__label">
             <input
               type="checkbox"
-              id="user-privacy"
-              class="visually__hidden checkbox-input"
-              value="true"
+              class="visually-hidden"
               name="user-privacy"
               required
             />
-            <label for="user-privacy" class="checkbox__label">
-              <span class="checkbox__part">
-                <svg class="checkbox__icon" width="10" height="8">
-                  <use href="./images/submint.svg#icon-submint"></use>
-                </svg>
-              </span>
-              I accept the terms and conditions of the
-              <a href="#" class="privacy__policy-link">Privacy Policy </a>
-            </label>
-          </div>
+            <span class="checkbox__part">
+              <svg class="checkbox__icon" width="10" height="8">
+                <use href="./images/icons.svg#icon_submit"></use>
+              </svg>
+            </span>
+            I accept the terms and conditions of the
+            <a href="#" class="privacy__policy-link">Privacy Policy</a>
+          </label>
           <button class="send__form">Send</button>
         </form>
       </div>

@@ -3,6 +3,10 @@ a {
   font-style: normal;
 }
 
+:root {
+  --icon-fill-color: #f4f4fd;
+}
+
 h1,
 h2,
 h3,
@@ -839,7 +843,7 @@ input[type="checkbox"]:checked ~ .checkbox__label .checkbox__part {
 }
 
 input[type="checkbox"]:checked ~ .checkbox__label .checkbox__icon {
-  fill: #f4f4fd;
+  fill: var(--icon-fill-color);
 }
 
 .privacy__policy-link {

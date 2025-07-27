@@ -721,7 +721,8 @@ body {
 
 .modal__close:hover,
 .modal__close:focus {
-  fill: #ffffff;
+  background-color: #404bbf;
+  border: none;
 }
 
 .modal__icon {

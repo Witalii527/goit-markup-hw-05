@@ -721,8 +721,6 @@ body {
 
 .modal__close:hover,
 .modal__close:focus {
-  background-color: #404bbf;
-  border: none;
   fill: #ffffff;
 }
 
@@ -799,7 +797,13 @@ input[type="radio"] {
 }
 .input:focus {
   border-color: #4d5ae5;
+  outline: none;
 }
+
+.input:focus + .input__icon {
+  fill: #4d5ae5;
+}
+
 .input__icon {
   position: absolute;
   left: 16px;
@@ -830,7 +834,9 @@ input[type="radio"] {
 }
 .textarea:focus {
   border-color: #4d5ae5;
+  outline: none;
 }
+
 .checkbox {
   margin-bottom: 24px;
 }

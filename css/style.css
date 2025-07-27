@@ -877,11 +877,11 @@ input[type="radio"] {
 input:checked + .checkbox__label .checkbox__part {
   background-color: var(--accent-color);
   border: none;
-  /* fill: var(--icon-fill-color); */
 }
 
 input:checked + .checkbox__label .checkbox__part .checkbox__icon {
   opacity: 1;
+  fill: var(--icon-fill-color);
 }
 
 .privacy__policy-link {

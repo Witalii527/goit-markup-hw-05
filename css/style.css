@@ -908,3 +908,9 @@ input[type="checkbox"]:checked + .checkbox__label .checkbox__part {
   white-space: nowrap;
   border: 0;
 }
+
+.send__form:hover,
+.send__form:focus {
+  background-color: #404bbf;
+  border: none;
+}

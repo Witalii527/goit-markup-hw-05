@@ -664,7 +664,7 @@ body {
 .modal__overlay.is__open {
   opacity: 1;
   visibility: visible;
-  pointer-events: auto;
+  pointer-events: initial;
 }
 
 .modal {
